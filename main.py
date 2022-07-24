@@ -3,10 +3,10 @@ import time
 import os
 import sys
 
-api = twitter.Api(consumer_key='',
-                  consumer_secret='',
-                  access_token_key='',
-                  access_token_secret='')
+api = twitter.Api(consumer_key='Your consumer key',
+                  consumer_secret='Your consumer secret key',
+                  access_token_key='Your access token key',
+                  access_token_secret='Your access token secret key')
 global feurwords
 feurwords = ["quoi", "koi", "coi", "qoua", "quoua", "koua",
              "kwa", "qwa", "cwa", "qoi", "koa", "cua", "kua"]
